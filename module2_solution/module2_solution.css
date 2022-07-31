@@ -18,30 +18,35 @@ h1 {
     margin-right: 10px;
     margin-left: 10px;
     margin-bottom: 20px;
+    position:relative;
 }
 
-span {
-    float:right;
+.titles {
     border: 1px solid black;
     font-weight: bold;
-    margin:-1px;
+    text-align:center;
     padding-left: 20px;
     padding-right:20px;
     font-size: 125%;
-    margin-bottom: 10px;
+    margin-top: 0px;
+    margin-bottom: 40px;
+    position:absolute;
+    top: -1px;
+    right:-1px;
+
 
 }
 
-#span1 {
+#title1 {
     background-color: rgb(250, 146, 150);
 }
 
-#span2 {
+#title2 {
     background-color: brown;
     color: white;
 }
 
-#span3 {
+#title3 {
     background-color: wheat;
 }
 
@@ -50,6 +55,7 @@ p{
     padding-left: 15px;
     padding-right: 15px;
     margin-bottom:0px;
+    margin-top:35px;
 }
 
 @media(min-width: 992px) {
