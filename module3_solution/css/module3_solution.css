@@ -1,0 +1,59 @@
+.navbar-default {
+    background-color: darkgray;
+}
+
+#navigation {
+    border: 1px solid black;
+    border-radius: 0;
+}
+
+.navbar-default .navbar-brand {
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    font-size: 1.5em;
+    text-shadow: 1px 1px 1px #222;
+    line-height: .75;
+}
+
+.navbar-nav {
+    margin: 0px -15px;
+}
+
+.navbar-default .navbar-toggle{
+    border: 1px solid black;
+    padding: 4px 5px;
+    box-sizing: border-box;
+    width: 33px;
+    height: 33px ;
+}
+
+.navbar-default .navbar-collapse {
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: white;
+    border-color: black;
+}
+
+.icon-bar {
+    border: 2px solid black;
+}
+
+li{
+    text-align: center;
+    border: 0.5px solid black;
+}
+
+hr {
+    margin:auto;
+    border-top: 1px solid black;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+a {
+    color: black;
+}
+
+#item {
+    background-color: darkgray;
+}
